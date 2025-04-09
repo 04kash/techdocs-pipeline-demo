@@ -1,0 +1,9 @@
+site_name: 'mock-docs'
+site_description: 'mock-docs site description'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+  - mkdocs-minify-plugin

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-pipeline-demo
+spec:
+  lifecycle: production
+  type: backstage-common-library
+  owner: 04kash
