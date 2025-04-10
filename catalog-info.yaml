@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: techdocs-pipeline-demo
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   lifecycle: production
   type: backstage-common-library
