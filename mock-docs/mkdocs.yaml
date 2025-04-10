@@ -1,9 +1,9 @@
-site_name: 'mock-docs'
-site_description: 'mock-docs site description'
+site_name: 'TechDocs Pipeline Demo'
+site_description: 'A demo that builds TechDocs using a Github workflow and publishes it to AWS S3 storage'
 
 nav:
   - Home: index.md
 
 plugins:
   - techdocs-core
-  - mkdocs-minify-plugin
+  - minify
