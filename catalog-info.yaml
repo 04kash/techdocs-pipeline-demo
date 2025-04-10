@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: techdocs-pipeline-demo
+  name: my-doc-entity
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
