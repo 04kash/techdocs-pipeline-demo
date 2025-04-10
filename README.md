@@ -1,6 +1,6 @@
 # TechDocs Pipeline Demo
 
-This repository contains a GitHub Actions workflow that builds and publishes TechDocs documentation to an AWS S3 bucket. These pre-generated docs can then be consumed by a Backstage instance configured in external TechDocs mode.
+This repository contains a GitHub Actions workflow that builds and publishes TechDocs documentation to an AWS S3 bucket. These pre-generated docs can then be consumed by a Backstage instance.
 
 
 ## MkDocs Plugins Used and How to Add More
