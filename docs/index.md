@@ -91,11 +91,11 @@ const addThingToThing = (a, b) a + b;
 
 - request
 
-# iframe Example
+## Example iframe
 
-<iframe width="672" height="378" frameborder="0"
-src="https://www.youtube.com/embed/85TQEpNCaU0" title="YouTube video player" 
-allow="picture-in-picture" allowfullscreen></iframe>
+Here is an example:
+
+<iframe width="672" height="378" src="https://www.youtube.com/embed/85TQEpNCaU0" title="YouTube video player" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
 
 <!-- prettier-ignore -->
 *[MOCDOC]: Mock Documentation
