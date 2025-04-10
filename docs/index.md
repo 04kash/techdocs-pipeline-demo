@@ -4,9 +4,6 @@
 
 Testing something
 
-Abbreviations:
-Some text about MOCDOC
-
 This is a paragraph.
 {: #test_id .test_class }
 
@@ -61,18 +58,6 @@ const addThingToThing = (a, b) a + b;
         test();
     }
     ```
-
-```java tab="java"
-    public void function() {
-      test();
-    }
-```
-
-```java tab="java 2"
-    public void function() {
-      test();
-    }
-```
 
 # MDX truly sane lists
 
