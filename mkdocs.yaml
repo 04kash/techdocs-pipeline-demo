@@ -1,5 +1,5 @@
 site_name: 'TechDocs Build Pipeline Demo'
-site_description: 'A demo that builds TechDocs using a Github workflow and publishes it to AWS S3 storage'
+site_description: 'A demo that builds TechDocs using a Github Actions workflow and publishes it to AWS S3 storage'
 
 nav:
   - Home: index.md
