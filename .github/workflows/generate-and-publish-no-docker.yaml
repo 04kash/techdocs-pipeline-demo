@@ -28,18 +28,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      
-      - name: Read config
-        id: config
-        run: |
-          USE_DOCKER=$(grep useDocker .techdocs-config.yaml | awk '{print $2}')
-          echo "use_docker=$USE_DOCKER" >> $GITHUB_OUTPUT
-
-      - name: Exit early if not using Docker
-        if: steps.config.outputs.use_docker == 'true'
-        run: |
-          echo "Docker is enabled in config, exiting."
-          exit 0
 
       - uses: actions/setup-node@v3
       - uses: actions/setup-python@v4
