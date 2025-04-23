@@ -81,6 +81,3 @@ const addThingToThing = (a, b) a + b;
 Here is an example:
 
 <iframe width="672" height="378" src="https://www.youtube.com/embed/85TQEpNCaU0" title="YouTube video player" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
-
-<!-- prettier-ignore -->
-*[MOCDOC]: Mock Documentation
