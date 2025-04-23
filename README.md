@@ -41,7 +41,7 @@ aws:
       secretAccessKey: $AWS_SECRET_ACCESS_KEY
 ```
 
-Also ingest the catalog-info.yaml file in this repo to be able to view the techdocs, as in backstage docs are linked to entities following a docs-like-code approach. Remember to mention the [backstage.io/techdocs-ref](https://backstage.io/docs/features/techdocs/how-to-guides/#how-to-understand-techdocs-ref-annotation-values) annotation! 
+Also ingest the catalog-info.yaml file in this repo to be able to view the techdocs, as in backstage docs are linked to entities following a docs-like-code approach. Remember to mention the [backstage.io/techdocs-ref](https://backstage.io/docs/features/techdocs/how-to-guides/#how-to-understand-techdocs-ref-annotation-values) annotation.
 
 ## Helpful Resources
 - [Configuring AWS S3 Bucket with TechDocs](https://backstage.io/docs/features/techdocs/using-cloud-storage/#configuring-aws-s3-bucket-with-techdocs)
