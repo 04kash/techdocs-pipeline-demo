@@ -28,11 +28,6 @@ This is a b c.
 
 This is x y z.
 
-
-# Emojis
-
-:bulb: :smile:
-
 # Code blocks
 
 ```javascript
